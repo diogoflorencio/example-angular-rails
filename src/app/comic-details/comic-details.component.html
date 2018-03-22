@@ -1,0 +1,11 @@
+<ul class="collection" *ngIf="comic">
+  <li class="collection-item dismissable">
+      <input [(ngModel)]="comic.title" type="text" class="secondary-content" style="font-size:400%; color:white;" placeholder="Title">
+      <input [(ngModel)]="comic.superhero" type="text" class="secondary-content" style="font-size:220%; color:white;" placeholder="Super hero">
+      <input [(ngModel)]="comic.edition" type="number" class="secondary-content" style="font-size:220%; color:white;" placeholder="Number edition">
+      <a routerLink="/comics" class="secondary-content">
+        <i (click)="save()" class="material-icons" style="font-size:60px;">save</i>
+        <i (click)="delete()"class="material-icons" style="font-size:60px;">delete</i>
+      </a>
+  </li>
+</ul>

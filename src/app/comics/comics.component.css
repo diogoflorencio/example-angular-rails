@@ -1,0 +1,15 @@
+.collection{
+	width:50%;
+	left:25%;
+	top:15%;
+	position:absolute;
+	border-radius:35px;
+	border:15px solid;
+	background-color:black;
+}
+
+.collection-header{
+	text-align:center;
+	color:white;
+	background-color:black;
+}

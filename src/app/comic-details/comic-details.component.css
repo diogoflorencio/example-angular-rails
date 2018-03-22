@@ -1,0 +1,16 @@
+.collection {
+	width:50%;
+	left:25%;
+	top:51%;
+	position:absolute;
+	border-radius:50px;
+	border:15px solid;
+  background-color:black;
+}
+
+.collection-item {
+  text-align:center;
+  background-color:black;
+  color:white;
+  font-family:Bangers;
+} 

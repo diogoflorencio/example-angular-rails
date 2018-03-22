@@ -1,0 +1,14 @@
+<ul class="collection" style="text-align:right;">
+    <div  class="collection-header" style="font-family:Bangers; text-align:center;"><h1>Yours Comics</h1></div>
+    <li *ngFor="let comic of comics">
+      <div routerLink="/comic-details/{{comic.id}}" class="collapsible-header"
+      style="color:white; background-color:black; font-family:Bangers;font-size:160%;"
+      onmouseover="this.style.color='#009688';" onmouseout="this.style.color='white';">
+        <i class="material-icons">book</i>
+        Title: {{ comic.title }} - N: {{ comic.edition }}
+      </div>
+    </li>
+    <a routerLink="/new-comic" class="waves-effect waves-light btn"  style="background-color:#009688;">
+      <i class="material-icons" style="font-size:50px; background-color:#009688;">add</i>
+    </a>
+</ul>
